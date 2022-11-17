@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Manage Seating
+    </title>
+ 
+    <style>
+ 
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-image:url('wallpaperflare.com_wallpaper.jpg');
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color:#81C634;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+            color:#573b8a;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color:#573b8a;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            color:#4ABB65;
+        }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #a7bf9b;
+  color: #040c63;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+#para1 {
+  margin-left:20px;
+  color: #040c63;
+}
+
+    </style>
+</head>
+  
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="file:///C:/Users/gaura/Downloads/Study/Project%20WT/1stpage.html" class="active">Home</a>
+  <a href="file:///C:/Users/gaura/Downloads/Study/Project%20WT/About.html">About Us</a>
+  <a href="file:///C:/Users/gaura/Downloads/Study/Project%20WT/main.html">Manage Seating</a>
+</div>
+    <h1>Manage Seating</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="dept" id="label-name">
+               Department:
+            </label>
+ 
+             <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="IT">
+                    IT
+                </option>
+                <option value="MECH">MECH</option>
+                <option value="EEE">EEE</option> 
+                <option value="CIVIL">CIVIL</option>
+                <option value="MINING">MINING</option> 
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label for="section" id="label-email">
+               Enter the room number:
+            </label>
+             <!-- Input Type Text -->
+             <input type="text"
+                   id="age"
+                    />
+        
+ 
+           
+        </div>
+  
+        
+        
+          <div class="form-control">
+            <label for="seat no" id="label-role">
+               Enter the seat number:
+            </label>
+             
+           <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                    />
+        
+        </div>
+  
+        <div class="form-control">
+            <label>
+                Enter the student roll number:
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                    />
+            
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+  
+</html>

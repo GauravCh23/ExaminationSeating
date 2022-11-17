@@ -1,0 +1,48 @@
+body{
+background-image:url('wallpaperflare.com_wallpaper.jpg');
+}
+
+h1{
+color:#040c63;
+margin-left:20px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #7cb560;
+  border: none;
+  color:#040c63;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+} 
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #a7bf9b;
+  color: #040c63;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+#para1 {
+  margin-left:20px;
+  color: #040c63;
+}
+
+
